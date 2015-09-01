@@ -1,0 +1,6 @@
+The algorithm is:
+1. Find all sentence scores
+	a. For each sentence in "content", find it's intersection(number of common words) with every other sentence. 
+	b. The sum of all it's intersections is its "score"
+2. For each paragraph in the content, locate the best sentence. This is achieved by locating the sentence with the highest "score" int that paragraph. 
+3. Print the title, followed by the best sentence in each paragraph. You arrive at the gist.
